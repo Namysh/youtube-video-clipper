@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube video clipper",
+  "description": "Clip any youtube video",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "clapper.png"
+  },
+  "permissions": ["tabs", "https://youtubeclipper-gzotm3xlza-ew.a.run.app/*", "http://youtubeclipper-gzotm3xlza-ew.a.run.app/*"],
+  "host_permissions": ["https://youtubeclipper-gzotm3xlza-ew.a.run.app/*", "http://youtubeclipper-gzotm3xlza-ew.a.run.app/*"]
+}
